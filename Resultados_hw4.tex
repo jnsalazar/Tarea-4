@@ -1,0 +1,121 @@
+\documentclass[letterpaper,11pt]{article} 
+\usepackage{amsmath} 
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{bm}
+\usepackage[mathlines]{lineno}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{siunitx}
+\graphicspath{ {images/} } 
+
+\usepackage{ragged2e}
+\newenvironment{Figure}
+
+
+\usepackage{multicol,caption}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\decimalpoint
+\usepackage{authblk}
+\usepackage[margin=1in,letterpaper]{geometry} % this shaves off default margins which are too big
+\usepackage{cite}
+
+\usepackage[final]{hyperref} % adds hyper links inside the generated pdf file
+\usepackage[]{units}
+\usepackage{float}
+\hypersetup{
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=blue,          % color of internal links
+	citecolor=blue,        % color of links to bibliography
+	filecolor=magenta,      % color of file links
+	urlcolor=blue         
+}  
+\usepackage[margin=1in,letterpaper]{geometry}
+
+
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{Métodos Computacionales}
+
+\begin{document}
+
+\DeclareGraphicsExtensions{.png, .jpg, .pdf, .tiff}
+
+\title{\textbf{Resultados}}
+
+\author[]{\textbf{Juan Nicolás Salazar}}
+\affil[]{Departamento de Física, Universidad de los Andes}
+\date{11 de Noviembre de 2017}
+
+
+
+
+\maketitle
+ \noindent
+A continuación se presentan las gráficas de la evolución temporal de una cuerda y la membrana de un tambor de acuerda a sus respectivas ecuaciones de onda, para distintos tiempos.
+
+\section{Cuerda}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=8cm]{c1}
+    \captionof{figure}{Gráfica de la cuerda en $t=0$}
+    \label{f1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=7cm]{c2}
+    \captionof{figure}{Gráfica de la cuerda en $t=\frac{1}{8}T$}
+    \label{f1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=8cm]{c3}
+    \captionof{figure}{Gráfica de la cuerda en $t=\frac{1}{4}T$}
+    \label{f1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=7cm]{c4}
+    \captionof{figure}{Gráfica de la cuerda en $t=\frac{1}{2}T$}
+    \label{f1}
+\end{figure}
+
+\section{Tambor}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=7cm]{t1}
+    \captionof{figure}{Gráfica del tambor en $t=0$}
+    \label{f1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=7cm]{t2}
+    \captionof{figure}{Gráfica del tambor en $t=\frac{1}{8}T$}
+    \label{f1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=7cm]{t3}
+    \captionof{figure}{Gráfica del tambor en $t=\frac{1}{4}T$}
+    \label{f1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=7cm]{t4}
+    \captionof{figure}{Gráfica del tambor en $t=\frac{1}{2}T$}
+    \label{f1}
+\end{figure}
+
+
+\end{document}
